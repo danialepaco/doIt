@@ -6,6 +6,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet var tableView: UITableView!
     var todoarray = [String]()
     var descrip = [String]()
+    var descripw = [String]()
     var todoarraydate = [Date]()
     var refresher: UIRefreshControl?
 
